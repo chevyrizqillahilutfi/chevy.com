@@ -5,7 +5,7 @@
     $register_message = "";
 
     if(isset($_SESSION["is_login"])) {
-        header("location: dashboard.php");
+        header("location: index.php");
     }
 
     if(isset($_POST["register"])) {

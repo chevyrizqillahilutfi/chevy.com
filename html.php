@@ -74,14 +74,14 @@
 		<h1>SEJAHTERA FARM</h1>
 	</header>
 	<nav>
-		<a href="#About.php">About</a>
-		<a href="#service">Services</a>
-		<a href="#contact">Contact</a>
-		<a href="login.php">sign in</a>
+		<a href="./index.php">Home</a>
+		<a href="./service">Services</a>
+		<a href="./contact">Contact</a>
+		<a href="./login.php">sign in</a>
 	</nav>
 	<main>
 		<h1>SEJAHTERA FARM</h1>
-		<p>Selamat datang "BENTAR BU, MASIH ADA EROR DI KONEKSI TABLE USERNYA, MASIH KESULITAN SAYA, TETEP TAK USAHAKAN BU😊🙏" di situs resmi Peternakan sapi Sejahtera Farm, tempat di mana 
+		<p>Selamat datang di situs resmi Peternakan sapi Sejahtera Farm, tempat di mana 
 			dedikasi terhadap peternakan berkualitas dan komitmen terhadap keberlanjutan bertemu. 
 			Kami bangga dapat menyajikan informasi lengkap  tentang peternakan sapi kami yang 
 			berdiri kokoh dengan fondasi pengalaman, teknologi modern, dan praktik dalam industri peternakan. 

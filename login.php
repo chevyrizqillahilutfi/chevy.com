@@ -5,7 +5,7 @@
     $login_message = "";
 
     if(isset($_SESSION["is_login"])) {
-        header("location: dashboard.php");
+        header("location: index.php");
     }
 
     if(isset($_POST['login'])) {
@@ -23,7 +23,7 @@
             $_SESSION["username"] = $data["username"];
             $_SESSION["is_login"] = true;
 
-            header("location: dashboard.php");
+            header("location: index.php");
             
        }else {
             $login_message = "akun tidak ditemukan";
