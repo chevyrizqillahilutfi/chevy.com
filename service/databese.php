@@ -1,17 +1,15 @@
 <?php
- 
-$hostname = "localhost";
-$username = "root";
-$password = "";
-$database_name = "buku_tamu";
+// Database connection details
+$databaseHost = "localhost";
+$databaseName = "pengolahanmakanan";
+$databaseUsername = "root";
+$databasePassword = "";
 
-$db = mysqli_connect($hostname, $username, $password, $database_name);
+// Establish connection
+$mysqli = new mysqli($databaseHost, $databaseUsername, $databasePassword, $databaseName);
 
-// if ($db->connect_error) {
-//     echo "koneksi database rusak";
-//     die("error!");
-// }else{
-//     echo 'True';
-// }
-
+// Check connection
+if ($mysqli->connect_error) {
+    die("Koneksi database gagal: " . $mysqli->connect_error);
+} 
 ?>
